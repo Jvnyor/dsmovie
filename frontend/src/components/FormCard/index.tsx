@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Movie } from "types/movie";
 import { BASE_URL } from "utils/requests";
 import "./styles.css";
@@ -11,12 +11,10 @@ type Props = {
 
 function FormCard( { movieId } : Props ) {
 
-    const navigate = useNavigate();
-
     const [movie, setMovie] = useState<Movie>();
 
     useEffect(() => {
-        axios.get(`${BASE_URL}/movies/${movieId}}`)
+        axios.get(`${BASE_URL}/movies/${movieId}`)
             .then(response => {
                 setMovie(response.data);
             });
