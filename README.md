@@ -10,6 +10,11 @@ Projeto desenvolvido durante evento da DevSuperior, onde pratiquei junto ao prof
 - TypeScript
 - SQL
 
+### Linguagem de marcação e de estilo
+
+- HTML
+- CSS
+
 ### Frameworks
 
 - React
