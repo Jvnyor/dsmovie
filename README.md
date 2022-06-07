@@ -31,7 +31,7 @@ Projeto desenvolvido durante evento da DevSuperior, onde pratiquei junto ao prof
 
 ## Observações
 
-Na pasta raíz do back-end do projeto, há o arquivo create.sql, nele está contido todo o SQL necessário para a criação dos bancos de dados e das tabelas, também há a configuração dos perfis, separando profiles de teste, desenvolvimento e produção.
+Na pasta raíz do back-end do projeto, há o arquivo create.sql, nele está contido todo o SQL necessário para a criação do banco de dados e das tabelas, também há a configuração dos perfis, separando profiles de teste, desenvolvimento e produção.
 
 Na pasta src/main/resources há um arquivo import.sql, nele há contido um sql para interações no profile de testes.
 
